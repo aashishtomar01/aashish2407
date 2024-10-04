@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plans</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 1;
+        padding: 2;
+
+    }    .parent{
+        border: 2px solid red;
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;               /*Basically it aligns elements to centre */
+        flex-wrap: wrap;                /*Automatically adjust size when using in diff diff devices*/
+        }
+        .Box{
+            border: 2px solid;
+            width: 300px;
+            height: 450px;
+            background-color: rgba(231, 224, 224, 0.856);
+        }
+</style>
+<body>
+    <div class="parent">
+            <div class="Box" id="Box-1"><h1 style="text-align: center;">Basic</h1>
+            <p style="text-align: center;">$10/month <br> Feature 1 <br> Feature 2</p><br>
+            <button style="text-align: center;">Sign Up</button>
+            </div>
+            <div class="Box" id="Box-2"><h1 style="text-align: center;">Premium</h1>
+                <p style="text-align: center;">$10/month <br> Feature 1 <br> Feature 2 <br> Feature 3 </p></div>
+            <div class="Box" id="Box-3"><h1 style="text-align: center;">Pro</h1>
+                <p style="text-align: center;">$10/month <br> Feature 1 <br> Feature 2 <br>Feature 3 <br>Feature4</p></div>
+
+    </div>
+
+    
+</body>
+</html>
